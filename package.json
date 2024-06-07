@@ -4,6 +4,6 @@
     "private": true,
     "scripts": {
         "dev": "mintlify dev",
-        "start": "mintlify build"
+        "start": "mintlify dev"
     }
 }
