@@ -1,5 +1,4 @@
-FROM nginx:alpine as base
-ENV DATABASE_URL=$DATABASE_URL
+FROM node:14
 RUN echo -e "\e[1;33mENVIRONMENT VARIABLES\e[0m"
 RUN env
 RUN echo "Hello, World!" > /usr/share/nginx/html/index.html
