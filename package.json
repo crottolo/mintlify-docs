@@ -5,8 +5,5 @@
     "scripts": {
         "dev": "mintlify dev",
         "start": "mintlify build"
-    },
-    "dependencies": {
-        "mintlify": "^0.1.0"
     }
 }
